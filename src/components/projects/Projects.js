@@ -1,9 +1,5 @@
 import React from "react";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
+
 import kakaibeans from "../../img/kakaibeans.png";
 import calcu from "../../img/calculator.png";
 import todo from "../../img/todo.png";
@@ -13,7 +9,7 @@ export default function ActionAreaCard() {
     <div className="cardlist">
       <div className="cardContainer">
         <div className="project project1">
-          <img src={kakaibeans} className="imgproject" />
+          <img src={kakaibeans} className="imgproject" alt="kakaibeans" />
           <a
             href="https://pjullygomez.github.io/1stproject.html"
             target="_blank">
@@ -21,7 +17,7 @@ export default function ActionAreaCard() {
           </a>
         </div>
         <div className="project proj2">
-          <img src={calcu} className="imgproject" />
+          <img src={calcu} className="imgproject" alt="calc" />
           <a
             href="https://pjullygomez.github.io/ecalc.github.io/ecalculator.html"
             target="_blank">
@@ -29,10 +25,8 @@ export default function ActionAreaCard() {
           </a>
         </div>
         <div className="project proj3">
-          <img src={todo} className="imgproject" />
-          <a
-            href="https://pjullygomez.github.io/ecalc.github.io/ecalculator.html"
-            target="_blank">
+          <img src={todo} className="imgproject" alt="todo" />
+          <a href="https://ejournalgomez.netlify.app/" target="_blank">
             To do List
           </a>
         </div>

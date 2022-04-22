@@ -9,10 +9,17 @@ import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
 import ActionAreaCard from "./components/projects/Projects";
 import "./components/projects/projects.css";
+import { Helmet } from "react-helmet";
 
 const App = () => {
   return (
     <div>
+      <div>
+        <Helmet>
+          <title>Portfolio-Gomez</title>
+          <meta name="description" content="Helmet application" />
+        </Helmet>
+      </div>
       <Intro />
       <MyTimeline />
       <Skills />
