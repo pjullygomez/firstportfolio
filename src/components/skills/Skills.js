@@ -12,6 +12,7 @@ import psd from "../../img/photoshop.png";
 const Skills = () => {
   return (
     <div className="skillsContainer">
+      <h1></h1>
       <article class="locations">
         <div class="containerlocations">
           <div className="leftskills">

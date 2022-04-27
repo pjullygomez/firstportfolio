@@ -7,6 +7,7 @@ import todo from "../../img/todo.png";
 export default function ActionAreaCard() {
   return (
     <div className="cardlist">
+      <h1 className="projectTitle">Sample Projects</h1>
       <div className="cardContainer">
         <div className="project project1">
           <img src={kakaibeans} className="imgproject" alt="kakaibeans" />
